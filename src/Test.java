@@ -1,10 +1,10 @@
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("sadhkhsadasd");
+        foo();
     }
 
-    void foo(){
+    static void foo(){
         System.out.println("123");
     }
 }
